@@ -1,0 +1,11 @@
+一、安装 jupyter
+pip install jupyter
+
+二、配置 jupyter notebook 
+jupyter notebook --generate-config 
+
+三、修改 notes 文件夹
+打开 .jupyter 文件夹，打开下面的 jupyter_notebook_config ，找到 "c.NotebookApp.notebook_dir="，修改成你的项目文件夹，保存。
+
+四、重启 jupyter notebook
+
